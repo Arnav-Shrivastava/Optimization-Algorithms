@@ -2,7 +2,7 @@
 
 | Optimizer | Learning Rate | Other Config | Test Accuracy (Mean +/- Std) | Convergence Speed |
 | :--- | :--- | :--- | :--- | :--- |
-| **SGD** | 0.05 | None | **77.22% +/- 0.51%** | Slow |
-| **SGD+Momentum** | 0.02 | beta=0.9 | **84.62% +/- 0.61%** | Fast |
-| **Adam** | 0.001 | beta1=0.9, beta2=0.999 | **84.03% +/- 0.69%** | Fast |
-| **AdamW** | 0.001 | decay=0.01 | **83.91% +/- 0.46%** | Fast |
+| **SGD** | 0.05 | None | **77.21% +/- 0.44%** | Slow |
+| **SGD+Momentum** | 0.02 | beta=0.9 | **84.63% +/- 0.58%** | Fast |
+| **Adam** | 0.001 | beta1=0.9, beta2=0.999 | **83.99% +/- 0.63%** | Fast |
+| **AdamW** | 0.001 | decay=0.01 | **84.10% +/- 0.65%** | Fast |
